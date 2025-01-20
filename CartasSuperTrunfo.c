@@ -82,12 +82,12 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-    printf("Códigos das Cidades: Cidade 1: %d, Cidade 2: %d, Cidade 3: %d\n", codigoCidade1, codigoCidade2, codigoCidade3);
-    printf("Nomes das Cidades: Cidade 1: %s, Cidade 2: %s, Cidade 3: %s\n", nomeCidade1, nomeCidade2, nomeCidade3);
-    printf("População das Cidades: Cidade 1: %.2lf, Cidade 2: %.2lf, Cidade 3: %.2lf\n", popoulacaoCidade1, popoulacaoCidade2, popoulacaoCidade3);
-    printf("Área das Cidades: Cidade 1: %.2lf, Cidade 2: %.2lf, Cidade 3: %.2lf\n", areaCidade1, areaCidade2, areaCidade3);
-    printf("Pib das Cidades: Cidade 1: %.2f, Cidade 2: %.2f, Cidade 3: %.2f\n", pibCidade1, pibCidade2, pibCidade3);
-    printf("Números de Pontos Turísticos das Cidades: Cidade 1: %d, Cidade 2: %d, Cidade 3: %d\n", numerosPontosTuristicosCidade1, numerosPontosTuristicosCidade2, numerosPontosTuristicosCidade3);
+    printf("*** Códigos das Cidades***\nCidade 1: %d\nCidade 2: %d\nCidade 3: %d\n", codigoCidade1, codigoCidade2, codigoCidade3);
+    printf("***Nomes das Cidades***\nCidade 1: %s\nCidade 2: %s\nCidade 3: %s\n", nomeCidade1, nomeCidade2, nomeCidade3);
+    printf("***População das Cidades***\nCidade 1: %.2lf\nCidade 2: %.2lf\nCidade 3: %.2lf\n", popoulacaoCidade1, popoulacaoCidade2, popoulacaoCidade3);
+    printf("***Área das Cidades***\nCidade 1: %.2lf\nCidade 2: %.2lf\nCidade 3: %.2lf\n", areaCidade1, areaCidade2, areaCidade3);
+    printf("***Pib das Cidades***\nCidade 1: %.2f\nCidade 2: %.2f\nCidade 3: %.2f\n", pibCidade1, pibCidade2, pibCidade3);
+    printf("***Números de Pontos Turísticos das Cidades***\nCidade 1: %d\nCidade 2: %d\nCidade 3: %d\n", numerosPontosTuristicosCidade1, numerosPontosTuristicosCidade2, numerosPontosTuristicosCidade3);
 
     return 0;
 }
