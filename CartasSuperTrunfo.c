@@ -1,6 +1,6 @@
-#include <stdio.h> // Biblioteca padrão para entrada e saída de dados
+#include <stdio.h>
 
-// Definindo constantes para facilitar o uso no programa
+// Define as constantes para o número de estados e cidades
 #define NUM_ESTADOS 8 // Número total de estados
 #define NUM_CIDADES 4 // Número de cidades por estado
 
@@ -31,7 +31,7 @@ void calcularPropriedades(Carta *carta) {
     }
 }
 
-// Função para exibir os dados de uma carta (inclui cálculos para Aventureiro e Mestre)
+// Função para exibir os dados de uma carta
 void exibirCarta(Carta carta) {
     printf("\nCodigo da Carta: %s\n", carta.codigoCarta);            // Exibe o código único da carta
     printf("Nome da Cidade: %s\n", carta.nomeCidade);               // Exibe o nome da cidade
