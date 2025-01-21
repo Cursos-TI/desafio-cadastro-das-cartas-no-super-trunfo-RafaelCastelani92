@@ -7,12 +7,12 @@
 
 // Estrutura para armazenar os dados de uma cidade
 typedef struct { // Cria um tipo chamado "Carta" com informações de uma cidade
-    char codigoCarta[4]; // Código único da carta (ex: A01)
-    char nomeCidade[50]; // Nome da cidade
-    int populacao; // População da cidade
-    float area; // Área da cidade em km²
-    float PIB; // PIB da cidade
-    int pontosTuristicos; // Quantidade de pontos turísticos
+    char codigoCarta[4];     // Código único da carta (ex: A01)
+    char nomeCidade[50];     // Nome da cidade
+    int populacao;           // População da cidade
+    float area;              // Área da cidade em km²
+    float PIB;               // PIB da cidade
+    int pontosTuristicos;    // Quantidade de pontos turísticos
 } Carta;
 
 int main() {
@@ -37,8 +37,7 @@ int main() {
             printf("\n--- Cadastro da Carta %s ---\n", novaCarta.codigoCarta);
 
             printf("Digite o nome da cidade: ");
-            scanf(" %[^
-]", novaCarta.nomeCidade); // Lê o nome da cidade
+            scanf(" %[^\n]", novaCarta.nomeCidade); // Corrige o formato para capturar strings com espaços
 
             printf("Digite a populacao: ");
             scanf("%d", &novaCarta.populacao); // Lê a população
